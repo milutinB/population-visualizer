@@ -54,7 +54,7 @@ def create_app(test_config=None):
 
     @app.route('/population_data')
     def population():
-        data = open('__data/population_data.json', 'rb').read()
+        data = open('data/population_data.json', 'rb').read()
         response = make_response(data)
         response.headers['Content-length'] = len(data)
         return response
