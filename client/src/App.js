@@ -172,7 +172,7 @@ export default function App() {
           </div>
           <div className='source-code'>
             <h3>Source Code:</h3> 
-            <a href='https://github.com/milutinB/population-app'>https://github.com/milutinB/population-visualizer</a>
+            <a href='https://github.com/milutinB/population-visualizer'>https://github.com/milutinB/population-visualizer</a>
           </div>
           </div>
         </div>
